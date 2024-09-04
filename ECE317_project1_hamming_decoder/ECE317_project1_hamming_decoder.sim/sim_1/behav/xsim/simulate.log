@@ -1,0 +1,16 @@
+Time resolution is 1 ps
+                   0ns tb_code = 0x000, tb_data = 0x00, tb_syndrome = 0x0
+                  10ns tb_code = 0x34f, tb_data = 0x39, tb_syndrome = 0x0
+                  20ns tb_code = 0x34e, tb_data = 0x39, tb_syndrome = 0x1
+                  30ns tb_code = 0x34d, tb_data = 0x39, tb_syndrome = 0x2
+                  40ns tb_code = 0x34b, tb_data = 0x39, tb_syndrome = 0x3
+                  50ns tb_code = 0x347, tb_data = 0x39, tb_syndrome = 0x4
+                  60ns tb_code = 0x35f, tb_data = 0x39, tb_syndrome = 0x5
+                  70ns tb_code = 0x36f, tb_data = 0x39, tb_syndrome = 0x6
+                  80ns tb_code = 0x30f, tb_data = 0x39, tb_syndrome = 0x7
+                  90ns tb_code = 0x3cf, tb_data = 0x39, tb_syndrome = 0x8
+                 100ns tb_code = 0x24f, tb_data = 0x39, tb_syndrome = 0x9
+                 110ns tb_code = 0x14f, tb_data = 0x39, tb_syndrome = 0xa
+                 120ns tb_code = 0x74f, tb_data = 0x39, tb_syndrome = 0xb
+                 130ns tb_code = 0xb4f, tb_data = 0x39, tb_syndrome = 0xc
+$finish called at time : 140 ns : File "C:/Users/jasmi/ECE317_project1_hamming_decoder/ECE317_project1_hamming_decoder.srcs/sources_1/new/hamming_decoder.v" Line 93
