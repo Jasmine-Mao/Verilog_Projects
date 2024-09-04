@@ -1,0 +1,141 @@
+Time resolution is 1 ps
+t=0, Reset asserted. State: idle
+t=0, clk=0, rst=1, ena=0, din=0, ok=1, p1=0, p2=0
+t=100000, Reset asserted. State: idle
+t=100000, clk=1, rst=1, ena=0, din=0, ok=1, p1=0, p2=0
+t=200000, clk=0, rst=1, ena=0, din=0, ok=1, p1=0, p2=0
+t=300000, Reset asserted. State: idle
+t=300000, clk=1, rst=1, ena=0, din=0, ok=1, p1=0, p2=0
+t=400000, clk=0, rst=0, ena=0, din=0, ok=1, p1=0, p2=0
+t=500000, State: idle -> state_1
+t=500000, clk=1, rst=0, ena=0, din=0, ok=1, p1=0, p2=0
+t=600000, clk=0, rst=0, ena=1, din=0, ok=1, p1=0, p2=0
+t=700000, State: state_1 -> state_2, din: 0000
+t=700000, clk=1, rst=0, ena=1, din=0, ok=1, p1=0, p2=0
+t=800000, clk=0, rst=0, ena=1, din=5, ok=1, p1=0, p2=0
+t=900000, State: state_2 -> state_3, din: 0101
+t=900000, clk=1, rst=0, ena=1, din=5, ok=1, p1=0, p2=0
+t=1000000, clk=0, rst=0, ena=1, din=3, ok=1, p1=0, p2=0
+t=1100000, State: state_3 -> state_4, din: 0011
+t=1100000, clk=1, rst=0, ena=1, din=3, ok=1, p1=0, p2=0
+t=1200000, clk=0, rst=0, ena=1, din=1, ok=1, p1=0, p2=0
+t=1300000, State: state_4 -> state_5, din: 0001
+t=1300000, clk=1, rst=0, ena=1, din=1, ok=1, p1=1, p2=0
+Test 1 success
+t=1400000, Reset asserted. State: idle
+t=1400000, clk=0, rst=1, ena=0, din=1, ok=1, p1=0, p2=0
+t=1500000, Reset asserted. State: idle
+t=1500000, clk=1, rst=1, ena=0, din=1, ok=1, p1=0, p2=0
+t=1600000, clk=0, rst=1, ena=0, din=1, ok=1, p1=0, p2=0
+t=1700000, Reset asserted. State: idle
+t=1700000, clk=1, rst=1, ena=0, din=1, ok=1, p1=0, p2=0
+t=1800000, clk=0, rst=0, ena=0, din=1, ok=1, p1=0, p2=0
+t=1900000, State: idle -> state_1
+t=1900000, clk=1, rst=0, ena=0, din=1, ok=1, p1=0, p2=0
+t=2000000, clk=0, rst=0, ena=1, din=0, ok=1, p1=0, p2=0
+t=2100000, State: state_1 -> state_2, din: 0000
+t=2100000, clk=1, rst=0, ena=1, din=0, ok=1, p1=0, p2=0
+t=2200000, clk=0, rst=0, ena=1, din=6, ok=1, p1=0, p2=0
+t=2300000, State: state_2 -> state_6, din: 0110
+t=2300000, clk=1, rst=0, ena=1, din=6, ok=1, p1=0, p2=0
+t=2400000, clk=0, rst=0, ena=1, din=1, ok=1, p1=0, p2=0
+t=2500000, State: state_6 -> state_7, din: 0001
+t=2500000, clk=1, rst=0, ena=1, din=1, ok=1, p1=0, p2=0
+t=2600000, clk=0, rst=0, ena=1, din=9, ok=1, p1=0, p2=0
+t=2700000, State: state_7 -> state_8, din: 1001
+t=2700000, clk=1, rst=0, ena=1, din=9, ok=1, p1=0, p2=1
+Test 2 success
+t=2800000, Reset asserted. State: idle
+t=2800000, clk=0, rst=1, ena=0, din=9, ok=1, p1=0, p2=0
+t=2900000, Reset asserted. State: idle
+t=2900000, clk=1, rst=1, ena=0, din=9, ok=1, p1=0, p2=0
+t=3000000, clk=0, rst=1, ena=0, din=9, ok=1, p1=0, p2=0
+t=3100000, Reset asserted. State: idle
+t=3100000, clk=1, rst=1, ena=0, din=9, ok=1, p1=0, p2=0
+t=3200000, clk=0, rst=0, ena=0, din=9, ok=1, p1=0, p2=0
+t=3300000, State: idle -> state_1
+t=3300000, clk=1, rst=0, ena=0, din=9, ok=1, p1=0, p2=0
+t=3400000, clk=0, rst=0, ena=1, din=0, ok=1, p1=0, p2=0
+t=3500000, State: state_1 -> state_2, din: 0000
+t=3500000, clk=1, rst=0, ena=1, din=0, ok=1, p1=0, p2=0
+t=3600000, clk=0, rst=0, ena=1, din=5, ok=1, p1=0, p2=0
+t=3700000, State: state_2 -> state_3, din: 0101
+t=3700000, clk=1, rst=0, ena=1, din=5, ok=1, p1=0, p2=0
+t=3800000, clk=0, rst=0, ena=1, din=0, ok=1, p1=0, p2=0
+t=3900000, clk=1, rst=0, ena=1, din=0, ok=1, p1=0, p2=0
+t=4000000, clk=0, rst=0, ena=1, din=6, ok=1, p1=0, p2=0
+t=4100000, State: state_2 -> state_6, din: 0110
+t=4100000, clk=1, rst=0, ena=1, din=6, ok=1, p1=0, p2=0
+t=4200000, clk=0, rst=0, ena=1, din=1, ok=1, p1=0, p2=0
+t=4300000, State: state_6 -> state_7, din: 0001
+t=4300000, clk=1, rst=0, ena=1, din=1, ok=1, p1=0, p2=0
+t=4400000, clk=0, rst=0, ena=1, din=9, ok=1, p1=0, p2=0
+t=4500000, State: state_7 -> state_8, din: 1001
+t=4500000, clk=1, rst=0, ena=1, din=9, ok=1, p1=0, p2=1
+Test 3 success
+t=4600000, Reset asserted. State: idle
+t=4600000, clk=0, rst=1, ena=0, din=9, ok=1, p1=0, p2=0
+t=4700000, Reset asserted. State: idle
+t=4700000, clk=1, rst=1, ena=0, din=9, ok=1, p1=0, p2=0
+t=4800000, clk=0, rst=1, ena=0, din=9, ok=1, p1=0, p2=0
+t=4900000, Reset asserted. State: idle
+t=4900000, clk=1, rst=1, ena=0, din=9, ok=1, p1=0, p2=0
+t=5000000, clk=0, rst=0, ena=0, din=9, ok=1, p1=0, p2=0
+t=5100000, State: idle -> state_1
+t=5100000, clk=1, rst=0, ena=0, din=9, ok=1, p1=0, p2=0
+t=5200000, clk=0, rst=0, ena=1, din=0, ok=1, p1=0, p2=0
+t=5300000, State: state_1 -> state_2, din: 0000
+t=5300000, clk=1, rst=0, ena=1, din=0, ok=1, p1=0, p2=0
+t=5400000, clk=0, rst=0, ena=1, din=5, ok=1, p1=0, p2=0
+t=5500000, State: state_2 -> state_3, din: 0101
+t=5500000, clk=1, rst=0, ena=1, din=5, ok=1, p1=0, p2=0
+t=5600000, clk=0, rst=0, ena=1, din=0, ok=1, p1=0, p2=0
+t=5700000, clk=1, rst=0, ena=1, din=0, ok=1, p1=0, p2=0
+t=5800000, clk=0, rst=0, ena=1, din=6, ok=1, p1=0, p2=0
+t=5900000, State: state_2 -> state_6, din: 0110
+t=5900000, clk=1, rst=0, ena=1, din=6, ok=1, p1=0, p2=0
+t=6000000, clk=0, rst=0, ena=1, din=0, ok=1, p1=0, p2=0
+t=6100000, clk=1, rst=0, ena=1, din=0, ok=1, p1=0, p2=0
+t=6200000, clk=0, rst=0, ena=1, din=5, ok=1, p1=0, p2=0
+t=6300000, State: state_2 -> state_3, din: 0101
+t=6300000, clk=1, rst=0, ena=1, din=5, ok=1, p1=0, p2=0
+t=6400000, clk=0, rst=0, ena=1, din=3, ok=1, p1=0, p2=0
+t=6500000, State: state_3 -> state_4, din: 0011
+t=6500000, clk=1, rst=0, ena=1, din=3, ok=1, p1=0, p2=0
+t=6600000, clk=0, rst=0, ena=1, din=1, ok=1, p1=0, p2=0
+t=6700000, State: state_4 -> state_5, din: 0001
+t=6700000, clk=1, rst=0, ena=1, din=1, ok=1, p1=1, p2=0
+Test 4 success
+t=6800000, Reset asserted. State: idle
+t=6800000, clk=0, rst=1, ena=0, din=1, ok=1, p1=0, p2=0
+t=6900000, Reset asserted. State: idle
+t=6900000, clk=1, rst=1, ena=0, din=1, ok=1, p1=0, p2=0
+t=7000000, clk=0, rst=1, ena=0, din=1, ok=1, p1=0, p2=0
+t=7100000, Reset asserted. State: idle
+t=7100000, clk=1, rst=1, ena=0, din=1, ok=1, p1=0, p2=0
+t=7200000, clk=0, rst=0, ena=0, din=1, ok=1, p1=0, p2=0
+t=7300000, State: idle -> state_1
+t=7300000, clk=1, rst=0, ena=0, din=1, ok=1, p1=0, p2=0
+t=7400000, clk=0, rst=0, ena=1, din=0, ok=1, p1=0, p2=0
+t=7500000, State: state_1 -> state_2, din: 0000
+t=7500000, clk=1, rst=0, ena=1, din=0, ok=1, p1=0, p2=0
+t=7600000, clk=0, rst=0, ena=0, din=6, ok=1, p1=0, p2=0
+t=7700000, clk=1, rst=0, ena=0, din=6, ok=1, p1=0, p2=0
+t=7800000, clk=0, rst=0, ena=1, din=5, ok=1, p1=0, p2=0
+t=7900000, State: state_2 -> state_3, din: 0101
+t=7900000, clk=1, rst=0, ena=1, din=5, ok=1, p1=0, p2=0
+t=8000000, clk=0, rst=0, ena=0, din=1, ok=1, p1=0, p2=0
+t=8100000, clk=1, rst=0, ena=0, din=1, ok=1, p1=0, p2=0
+t=8200000, clk=0, rst=0, ena=1, din=3, ok=1, p1=0, p2=0
+t=8300000, State: state_3 -> state_4, din: 0011
+t=8300000, clk=1, rst=0, ena=1, din=3, ok=1, p1=0, p2=0
+t=8400000, clk=0, rst=0, ena=0, din=9, ok=1, p1=0, p2=0
+t=8500000, clk=1, rst=0, ena=0, din=9, ok=1, p1=0, p2=0
+t=8600000, clk=0, rst=0, ena=1, din=1, ok=1, p1=0, p2=0
+t=8700000, State: state_4 -> state_5, din: 0001
+t=8700000, clk=1, rst=0, ena=1, din=1, ok=1, p1=1, p2=0
+Test 5 success
+t=8800000, clk=0, rst=0, ena=0, din=1, ok=1, p1=1, p2=0
+t=8900000, State: state_5 -> idle, pattern1 set
+t=8900000, clk=1, rst=0, ena=0, din=1, ok=1, p1=1, p2=0
+$finish called at time : 9 us : File "C:/Users/jasmi/Downloads/top_module.v" Line 242
